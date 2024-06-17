@@ -29,6 +29,30 @@ DFS explores paths to their maximum depth before backtracking, useful for explor
 - **Q-Learning and SARSA**
 These reinforcement learning algorithms learn optimal policies for navigating the gridworld by maximizing cumulative rewards through interaction with the environment. Q-Learning is off-policy while SARSA is on-policy.
 
+### Steps to be followed to run various algorithms to find the optimal path:
+----
+This Project code is available in the src folder of the project repository. 
+##### Pre-requisites: 
+- Install Python
+- Install dependencies like ***tkinter, matplotlib.pyplot, scipy.ndimage.filters, pylab***
+##### Algorithms Execution: 
+- Run A-Star Algorithm by going to main folder and executing below command in command prompt.
+    ```
+    python RunAStar.py
+    ```
+- Run Genetic Algorithm by going to main folder and executing below command in command prompt.
+    ```
+    python RunGenetic.py
+    ```
+- Run Q-Learning Algorithm by going to main folder and executing below command in command prompt.
+    ```
+    python  RunRL.py
+    ```
+- Run SARSA Algorithm by going to main folder and executing below command in command prompt.
+    ```
+    python  RunSARSA.py
+    ```
+
 ## Results
 
 The experiments evaluated the algorithms' efficiency and optimality across different grid sizes and heuristic functions.
