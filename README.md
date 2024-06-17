@@ -52,6 +52,14 @@ This Project code is available in the src folder of the project repository.
     ```
     python  RunSARSA.py
     ```
+- Run ACO Algorithm by going to main folder and executing below command in command prompt.
+    ```
+    python  RunACO.py
+    ```
+- Run DFS Algorithm by going to main folder and executing below command in command prompt.
+    ```
+    python  RunDFS.py
+    ```
 
 ## Results
 
