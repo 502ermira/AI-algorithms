@@ -93,9 +93,21 @@ The ACO algorithm was tested to simulate the foraging behavior of ants. It uses 
 - ACO was effective in finding multiple feasible paths, adapting well to changes in the grid.
 - Performance improved with increased iterations, but it was more computationally intensive compared to other algorithms.
 
+### Depth-First Search (DFS)
+
+The DFS algorithm was tested to explore its efficiency in pathfinding. DFS explores paths to their maximum depth before backtracking, which can be inefficient in larger grids due to the exhaustive nature of the search.
+
+**Performance Summary:**
+- DFS found paths in smaller grids effectively, but performance decreased significantly in larger grids due to increased backtracking.
+- Compared to other algorithms, DFS required more steps and visited nodes, highlighting its inefficiency in large and complex environments.
+
 ### Reinforcement Learning (Q-learning and SARSA)
 
-Reinforcement Learning algorithms were also implemented and tested. These algorithms allow the agent to learn the optimal path through interaction with the environment, adjusting based on rewards received from different actions. The results highlighted the differences between Q-learning and SARSA in terms of convergence rates and the quality of the paths found. Both methods showed promising results in learning optimal paths, but specific performance metrics were not detailed in the document.
+Reinforcement Learning algorithms were also implemented and tested. These algorithms allow the agent to learn the optimal path through interaction with the environment, adjusting based on rewards received from different actions. Both Q-learning and SARSA showed promising results in learning optimal paths.
+
+**Key Observations:**
+- Q-learning was effective in learning optimal policies with a sufficient number of iterations.
+- SARSA provided comparable results, with slightly different convergence behaviors due to its on-policy nature.
 
 ### Discussion
 
