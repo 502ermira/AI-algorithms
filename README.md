@@ -6,7 +6,7 @@ This repository contains a Python project that implements various pathfinding al
 
 ## Algorithms Implemented
 
-- **A* Algorithm**: Utilizes heuristics to efficiently find the shortest path.
+- **`A*` Algorithm**: Utilizes heuristics to efficiently find the shortest path.
 - **Genetic Algorithm**: Inspired by natural selection, evolves solutions over generations.
 - **Ant Colony Optimization (ACO)**: Based on the behavior of ants searching for food.
 - **Depth-First Search (DFS)**: Explores as far as possible along each branch before backtracking.
@@ -14,7 +14,7 @@ This repository contains a Python project that implements various pathfinding al
 - **SARSA (State-Action-Reward-State-Action)**: An on-policy reinforcement learning algorithm.
 
 ## Algorithm Details
-- **A* Algorithm**
+- **`A*` Algorithm**
 The A* algorithm uses a combination of cost from the start node and a heuristic to estimate the cost to the goal. The evaluation function f(n) = g(n) + h(n) guides the search process.
 
 - **Genetic Algorithm**
